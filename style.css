@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body {
+    font-family: 'Bad Script', cursive;
+    background-color: rgb(2, 61, 95);
+}
+
+.heading{   
+    color: #111;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #43C6AC,
+    0 0 20px #43C6AC,
+    0 0 40px #43C6AC,
+    0 0 80px #43C6AC,
+    0 0 120px #43C6AC,
+    0 0 200px #43C6AC,
+    0 0 300px #43C6AC,
+    0 0 400px #43C6AC;
+}
+
+.my-btn{
+   width: 60px;
+   background: rgba(0, 0, 0, 0.2) !important;
+   border:none;
+   outline: none;
+   font-size: 17px;
+    color: #43C6AC;
+}
+.my-btn:hover{
+    background: linear-gradient(#44A08D,  #093637) !important;
+    color: #43C6AC;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.input-h, .input-t{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.inputs-cont{
+    max-width: 500px;
+}
+
+.my-div{
+    padding: 10px 5px 5px 10px;
+  background: rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: capitalize;
+}
+.my-div:hover{
+    box-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.titleEditBtn, .textEditBtn, .delBtn{
+    margin: 5px;
+    color: #028675;
+    background-color: #003f5a;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.textEditBtn:hover{
+    background: linear-gradient(#44A08D,  #093637) !important;
+    color: #43C6AC;
+    box-shadow: 2px 2px 4px #000000;
+}
+.titleEditBtn:hover{
+    background: linear-gradient(#44A08D,  #093637) !important;
+    color: #43C6AC;
+    box-shadow: 2px 2px 4px #000000;
+}
+.delBtn:hover{
+    background: linear-gradient(#44A08D,  #093637) !important;
+    color: #43C6AC;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.buttonSection{
+     width: 56%;
+     margin: 0 auto 3px auto;
+     display: flex;
+     justify-content: center;
+}
+
+.my-h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+   border-bottom: 2px solid #003f5a;
+    
+}
+
+.my-para{
+   height: 110px; 
+   overflow-y: auto;
+   margin-bottom: 3px;
+   border-bottom: 2px solid #003f5a;
+
+}
+
